@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+     xmlns="http://xamarin.com/schemas/2014/forms"
+     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+     x:Class="ForeingExchange2.Views.MainView"
+    BackgroundColor="Yellow"
+    BindingContext="{Binding Main, Source={StaticResource Locator}}">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                FontAttributes="Bold"
+                FontSize="Large"
+                Text="Foreing Exchange!"
+                 
+                HorizontalOptions="CenterAndExpand">
+            </Label>
+            <Label
+                Text="Amount:">
+             </Label>
+
+            <Entry
+                Placeholder="Enter the amount to">
+            </Entry>
+            <Label
+                Text="Precio de origen:">
+            </Label>
+             <Picker
+                Title="Selecciona el precio original... ">
+            </Picker>
+            <Label
+                Text="Precio final:">
+            </Label>
+            <Picker
+                Title="Selecciona el precio final... ">
+            </Picker>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

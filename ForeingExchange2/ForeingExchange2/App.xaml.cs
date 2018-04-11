@@ -13,7 +13,7 @@ namespace ForeingExchange2
 		{
 			InitializeComponent();
 
-			MainPage = new ForeingExchange2.MainPage();
+			MainPage = new Views.MainView();
 		}
 
 		 
