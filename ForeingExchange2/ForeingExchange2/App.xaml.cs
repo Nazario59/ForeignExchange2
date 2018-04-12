@@ -13,7 +13,7 @@ namespace ForeingExchange2
 		{
 			InitializeComponent();
 
-			MainPage = new Views.MainView();
+			MainPage = new Views.LabelGirando();
 		}
 
 		 
